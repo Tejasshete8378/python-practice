@@ -1,4 +1,4 @@
-# Program to Find Maximum of Two Numbers
+# Program to Find Maximum of Three Numbers
 
 # This function takes three numbers (a, b, c) as input
 # and returns the largest value using a conditional expression
