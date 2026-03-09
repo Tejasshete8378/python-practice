@@ -1,4 +1,5 @@
-# # Program to compare two numbers
+# Program to compare two numbers
+
 a = int(input("Enter First Number: "))
 b = int(input("Enter Second Number: "))
 
