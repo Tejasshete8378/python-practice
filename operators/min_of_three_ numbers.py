@@ -1,3 +1,5 @@
+#Program to Find Minimum of Three Numbers
+
 # This function takes three numbers (a, b, c) as input
 # and returns the smallest value using a conditional expression
 def find_minimum(a,b,c):
