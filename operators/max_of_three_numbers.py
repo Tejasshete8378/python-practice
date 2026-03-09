@@ -1,3 +1,5 @@
+# Program to Find Maximum of Two Numbers
+
 # This function takes three numbers (a, b, c) as input
 # and returns the largest value using a conditional expression
 def find_maximum(a,b,c):
@@ -7,7 +9,7 @@ num1 = int(input("Enter First Number:"))
 num2 = int(input("Enter Second Number:"))
 num3 = int(input("Enter Third Number:"))
 
-## Calling the function 
+# Calling the function 
 # and storing the returned maximum value in maximum_value
 maximum_value = find_maximum(num1,num2,num3)
 
