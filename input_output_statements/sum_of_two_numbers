@@ -1,0 +1,8 @@
+# Program to read two numbers and print sum
+
+num1 = float(input("Enter First Number: "))
+num2 = float(input("Enter First Number: "))
+
+sum = num1 + num2
+
+print(f"The Sum of Two Numbers is: {sum}")
