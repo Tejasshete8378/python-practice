@@ -1,4 +1,4 @@
-# File Name : checking_number
+# File Name : checking_number_between_1_to_100.py
 # Author : Tejas Shete
 # Purpose : To Check whether entered number is between 1 to 100
 
