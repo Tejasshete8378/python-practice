@@ -1,4 +1,4 @@
-#File Name:  display_command_line_arguments.py
+#File Name:  find_biggest_of_two_numbers.py
 #Author: Tejas Shete
 #Purpose: To Find Biggest of Two Numbers
 
