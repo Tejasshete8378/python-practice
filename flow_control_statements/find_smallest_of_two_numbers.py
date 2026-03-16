@@ -8,7 +8,9 @@ num1 = int(input("Enter First Number: "))
 num2 = int(input("Enter Second Number: "))
 
 if num1<num2:
-    print("Number {} is smaller than {}" .format(num1,num2))
+    print(f"Number {num1} is smaller than {num2}")
+elif num2<num1:
+    print(f"Number {num2} is smaller than {num1}")
 else:
-    print("Number {} is smaller than {}" .format(num2,num1))
-    
+    print("Both numbers are equal")
+        
