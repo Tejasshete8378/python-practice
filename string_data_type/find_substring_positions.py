@@ -11,6 +11,7 @@ if subs == "":
 else:
     main=s.lower()
     sub=subs.lower()
+    
 
     n=len(main)
     count = 0
@@ -27,5 +28,9 @@ else:
         pos=i+len(sub)
 
     print("Total Number of Occurences: ",count)
+
+    if count == 0:
+        print("Main String Does not contain Entered Substring")
+
 #If Overlapping logic needed then use pos=i+1
     
