@@ -6,10 +6,10 @@ print("\n-----Program to Print Characters of a String Index Wise-----\n")
 
 text = input("Enter String: ")
 
-if text == '':
-    print("String Cannot be Empty")
-else:
-    for i, ch in enumerate(text): #enumerate(iterable, start=0) 
+if text.strip() == '':
+    print("String cannot be Empty")
+    exit()
+for i, ch in enumerate(text): #enumerate(iterable, start=0) 
         print(f"Character '{ch}' is present at index {i}")
    
     
