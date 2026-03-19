@@ -1,3 +1,34 @@
+📄 Final Problem Statement
+
+Title: Menu-Driven Program Using Loops, Strings, and Lists
+
+Objective:
+To develop a Python program that demonstrates the use of loops, conditional statements, strings, and lists through a menu-driven approach.
+
+Description:
+Write a Python program that displays a menu of multiple operations and prompts the user to select an option. Based on the user’s choice, the program should perform the corresponding task.
+
+📋 Menu Options
+________________
+
+Print the word "Hello" 10 times
+
+Display numbers from 0 to 10
+
+Display odd numbers from 0 to 20
+
+Display numbers from 10 to 1 in descending order
+
+Calculate and display the sum of elements in a user-provided list
+
+Print each character of a given string
+
+Print each character of a string along with its index
+
+_______________________________________________________________________________________________________
+
+Concepts:
+_______________________________________________________________________________________________________
 Python enumerate() Function
 Introduction
 enumerate() is a built-in Python function used to iterate over an iterable while keeping track of the index position of each element.
