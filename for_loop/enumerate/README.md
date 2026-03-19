@@ -8,8 +8,11 @@ Normally, a loop returns only the element value.
 Using enumerate(), both the index and the element can be accessed together.
 _________________________________________________________________________________________________________________________________________
 Syntax
+
 enumerate(iterable, start=0)
+
 •	iterable : A sequence such as string, list, or tuple
+
 •	start : The starting index value (default is 0)
 ________________________________________
 Example 1: Using enumerate() with a String
