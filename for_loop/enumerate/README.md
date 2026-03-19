@@ -19,18 +19,26 @@ Example 1: Using enumerate() with a String
 text = "CAT"
 
 for i, ch in enumerate(text):
+    
     print(i, ch)
+
 Output
+
 0 C
 1 A
 2 T
+
 Here, i represents the index position and ch represents the character.
 ________________________________________
+
 Example 2: Using enumerate() with a List
+
 fruits = ["Apple", "Mango", "Banana"]
 
 for i, fruit in enumerate(fruits):
+
     print(i, fruit)
+
 Output
 0 Apple
 1 Mango
