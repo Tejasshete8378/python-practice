@@ -40,34 +40,57 @@ for i, fruit in enumerate(fruits):
     print(i, fruit)
 
 Output
+
 0 Apple
+
 1 Mango
+
 2 Banana
 ________________________________________
+
 Example 3: Changing the Starting Index
+
 text = "DOG"
 
 for i, ch in enumerate(text, start=1):
+
     print(i, ch)
+
 Output
+
 1 D
+
 2 O
+
 3 G
 ________________________________________
+
 Comparison Without Using enumerate()
+
 text = "CAT"
+
 i = 0
 
+
 for ch in text:
+
     print(i, ch)
+    
     i += 1
+
 This approach requires manual handling of the index variable.
 ________________________________________
+
 Advantages of enumerate()
+
 •	Produces cleaner and more readable code
+
 •	Eliminates the need for manual index management
+
 •	Reduces the possibility of logical errors
+
 •	Widely used in professional Python development
+
 •	Frequently discussed in technical interviews
 ________________________________________
 Conclusion
