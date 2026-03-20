@@ -11,19 +11,19 @@ Write a Python program that displays a menu of multiple operations and prompts t
 📋 Menu Options
 ________________
 
-Print the word "Hello" 10 times
+1) Print the word "Hello" 10 times
 
-Display numbers from 0 to 10
+2) Display numbers from 0 to 10
 
-Display odd numbers from 0 to 20
+3) Display odd numbers from 0 to 20
 
-Display numbers from 10 to 1 in descending order
+4) Display numbers from 10 to 1 in descending order
 
-Calculate and display the sum of elements in a user-provided list
+5) Calculate and display the sum of elements in a user-provided list
 
-Print each character of a given string
+6) Print each character of a given string
 
-Print each character of a string along with its index
+7) Print each character of a string along with its index
 
 _______________________________________________________________________________________________________
 
