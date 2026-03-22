@@ -8,7 +8,7 @@ print("\n 1) Print Hello 10 Times\n")
 print("\n 2) Display Numbers from 0 to 10\n")
 print("\n 3) Display Odd Numbers from 0 to 20\n")
 print("\n 4) Display Numbers form 10 to 01 in Descending Order\n")
-print("\n 5) Calculate and Display the Sum of Elements in Used provided List \n")
+print("\n 5) Calculate and Display the Sum of Elements in User provided List \n")
 print("\n 6) Print Each Character of a Given String\n")
 print("\n 7) Print Each Character of a Given Index along ith index\n")
 
@@ -30,6 +30,18 @@ elif option == 3:
         if c%2!=0:
             print(c, end=' ') 
             c=c+1      
+elif option == 4:
+    d=10
+    while d>0:
+        print(d, end=' ')
+        d=d-1
+elif option == 5:
+    e = list(map(int, input("Enter Numbers separated by Space: ").split()))
+    total=0
+
+    for i in e:
+        total=total + i
+    print(f"Sum = {total}")
 
 
 
