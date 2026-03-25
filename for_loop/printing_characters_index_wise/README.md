@@ -9,7 +9,7 @@ Description:
 Write a Python program that displays a menu of multiple operations and prompts the user to select an option. Based on the user’s choice, the program should perform the corresponding task.
 
 📋 Menu Options
-________________
+__________________
 
 1) Print the word "Hello" 10 times
 
@@ -24,11 +24,10 @@ ________________
 6) Print each character of a given string
 
 7) Print each character of a string along with its index
-
-_______________________________________________________________________________________________________
+___________________________________________________________
 
 Concepts:
-_______________________________________________________________________________________________________
+_______________
 Python enumerate() Function
 
 Introduction
@@ -37,7 +36,7 @@ enumerate() is a built-in Python function used to iterate over an iterable while
 It is commonly used with data types such as strings, lists, and tuples.
 Normally, a loop returns only the element value.
 Using enumerate(), both the index and the element can be accessed together.
-_________________________________________________________________________________________________________________________________________
+___________________________________________________________
 Syntax
 
 enumerate(iterable, start=0)
