@@ -2,7 +2,7 @@
 
 ## Introduction
 
-enumerate() is a built-in Python function used to iterate over an iterable while keeping track of the index position of each element.
+enumerate()  is a built-in Python function used to iterate over an iterable while keeping track of the index position of each element.
 It is commonly used with data types such as strings, lists, and tuples.
 Normally, a loop returns only the element value.
 Using enumerate(), both the index and the element can be accessed together.
