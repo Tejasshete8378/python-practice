@@ -22,11 +22,12 @@ ________________________________________
 **Example 1: Using enumerate() with a String text = "CAT"**
 
 for i, ch in enumerate(text):
-    print(i, ch)
-Output
+&nbsp;&nbsp;&nbsp;&nbsp;print(i, ch)
+**Output:**
 0 C
 1 A
 2 T
+
 Here, i represents the index position and ch represents the character.
 ________________________________________
 
@@ -34,8 +35,9 @@ ________________________________________
 fruits = ["Apple", "Mango", "Banana"]**
 
 for i, fruit in enumerate(fruits):
-    print(i, fruit)
-Output
+>print(i, fruit)
+
+**Output:**
 0 Apple
 1 Mango
 2 Banana
@@ -46,7 +48,8 @@ text = "DOG"**
 
 for i, ch in enumerate(text, start=1):
     print(i, ch)
-Output
+
+**Output:**
 1 D
 2 O
 3 G
