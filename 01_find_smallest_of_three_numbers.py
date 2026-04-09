@@ -1,4 +1,4 @@
-# File Name: find_smallest_of_two_numbers.py
+# File Name: 1 find_smallest_of_three_numbers.py
 # Author: Tejas Shete
 # Purpose: To find Smallest of given Three numbers
 
