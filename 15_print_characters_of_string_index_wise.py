@@ -2,20 +2,7 @@
 # Auther : Tejas Shete
 # Purpose : To Print Characters of a String Index Wise
 
-'''print("\n-----Program to Print Characters of a String Index Wise-----\n")
 
-text = input("Enter String: ")
-
-print("Please select")
-
-choice = int(input(""))
-
-if text.strip() == '':
-    print("String Cannot be Empty")
-    exit()
-for i,ch in enumerate(text): #enumerate(iterable, start=0)
-    print(f"The Character {ch} is Present at Index {i}")
-'''
 print("\n-----Program to Print Characters of a String Index Wise as per User Demand-----\n")
 
 text = input("Enter String: ")
@@ -47,5 +34,7 @@ elif choice1 == 2 and choice2 == 3:
 elif choice1 == 2 and choice2 == 4:
     for i,ch in enumerate(text, start=0):
         print(f"The Character {ch} is present at Index {i - len(text)}")
+else:
+    print("Please Enter Valid Choice")
 
-print("\n-----Thank You-----\n")   
+print('\n','-'*50,"Thank You",'-'*50,'\n')   
