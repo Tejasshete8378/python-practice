@@ -18,6 +18,20 @@ print('\n','*'*30,"Welcome to the Intelligent Range Processor",'*'*30,'\n')
 start=int(input("Enter Start Number: "))
 end=int(input('\n'"Enter End Number: "))
  
-sequence=[i for i in range(start,end+1)]
+filtered_nums=[i for i in range(start,end+1) if i%3 == 0 or i%5 == 0]
 
-print('\n',f"Range from {start} to {end}: {sequence} ")
+if not filtered_nums:
+    print('\n',"No Numbers found Divisible by 3 or 5 in this randge")
+else:
+    squared_nums = [i**2 for i in filtered_nums]
+
+    avg = sum(squared_nums)/len(squared_nums)
+
+    print('\n',f"List of Numbers Divisible by 3 or 5: {filtered_nums}")
+
+    print('\n',f"Square of Numbers Divisible by 3 or 5: {squared_nums}")
+
+    print('\n',f"Average of Squared Numbers: {avg}")
+
+print('\n','*'*30,"Thank You",'*'*30,'\n')
+
