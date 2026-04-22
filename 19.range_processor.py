@@ -36,12 +36,11 @@ for i in range(start,end+1):
 
 print()
 
-print("Sequence in Descending Order: ",end=' ')   
+print("\nSequence in Descending Order: ",end=' ')   
 for i in range(end,start-1,-1):
     print(i,end=' ')
 
-print()
-
+print('\n')
 print(f"List of Numbers Divisible by 3 or 5: {filtered_nums}")
 
 print()
