@@ -18,26 +18,31 @@ You must use a list comprehension to filter the even numbers.
 Do not use the built-in sum() function for the sum key; implement your own loop logic.
 Handle the case where the list might be empty to avoid a "division by zero" error when calculating the average.'''
 
+import ast
+
 print('\n','*'*30,"Welcome to the Program",'*'*30,'\n')
 
-l1 = eval(input("Enter List: "))
+l1 = input("Enter List of Numbers Separated by Spaces: ")
 
-if len(l1) != 0:
-    l2 = [i for i in l1 if i % 2 == 0]
+if not l1.strip():
+    print("List is Empty, Please try again\n")
+
+else:
+
+    l2 = [int(i) for i in l1.split()]
+
+    l3 = [i for i in l2 if i % 2 == 0]
     
     total = 0
 
-    for i in l1:
+    for i in l2:
         total = total + i 
 
-    avg = total/len(l1)
+    avg = total/len(l2)
 
-    data = {'Even Numbers': l2, 'Sum of all Numbers': total, 'Average of all Numbers': avg}
+    data = {'Even Numbers': l3, 'Sum of all Numbers': total, 'Average of all Numbers': avg}
  
     print('\n',data,'\n')
-
-else:
-    print("List is Empty, Please enter List\n")
-    
+  
 print('*'*30,"Thank You",'*'*30)
 
