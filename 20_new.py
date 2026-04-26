@@ -6,8 +6,7 @@
 Now it is your turn to build your logic.
 
 Problem Statement:
-Instead of just summing the numbers, write a function that takes a list of numbers and returns a dictionary 
-containing three keys:
+Take List of Numbers and do the following operations.
 
 sum: The total sum of the numbers.
 even_count: The count of even numbers in the list.
@@ -22,25 +21,37 @@ import ast
 
 print('\n','*'*30,"Welcome to the Program",'*'*30,'\n')
 
-l1 = input("Enter List of Numbers Separated by Spaces: ")
+user_input = input("Enter List of Numbers: ")
 
-if not l1.strip():
-    print("List is Empty, Please try again\n")
+l2 = []
+total = 0
+avg = 0
 
+# Check whether Input is provided or not 
+if not user_input.strip():
+    print("No Input Provided\n")
 else:
+    # Covert User String into List 
+    # ast.literal_eval converts string to integer list so no need to convert it to int
+    l1 = ast.literal_eval(user_input)
 
-    l2 = [int(i) for i in l1.split()]
+    #Check whether List is Empty or Not
+    if len(l1) == 0:
+        print("List is Empty")
+    else:
+       
+        # 1) Using list comprehension to filter the even numbers.
+        l2 = [i for i in l1 if i % 2 == 0]
 
-    l3 = [i for i in l2 if i % 2 == 0]
-    
-    total = 0
+        # 2) Using Own logic to calculate sum    
+       
+        for i in l1:
+            total = total + i 
 
-    for i in l2:
-        total = total + i 
+        # 3) "Division by zero" error already handled.
+        avg = total/len(l1)
 
-    avg = total/len(l2)
-
-    data = {'Even Numbers': l3, 'Sum of all Numbers': total, 'Average of all Numbers': avg}
+    data = {'Even Numbers': l2, 'Sum of all Numbers': total, 'Average of all Numbers': avg}
  
     print('\n',data,'\n')
   
